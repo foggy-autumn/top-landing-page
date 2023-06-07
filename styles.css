@@ -26,6 +26,17 @@ ul {
     gap: 24px;
 }
 
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 40px;
+
+}
+
 .header, .footer {
     display: flex;
     background-color: #1F2937;
