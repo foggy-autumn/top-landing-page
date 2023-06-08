@@ -203,3 +203,7 @@ h3 {
 .action-container button {
     border: 2px solid #F9FAF8;
 }
+
+.content, .action-container {
+    flex-wrap: wrap;
+}
