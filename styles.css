@@ -135,3 +135,23 @@ button {
 .section-three {
     background-color: #E5E7EB;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    max-width: 800px;
+    align-items: flex-end;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937
+}
+
+.quote .credit p {
+    font-size: 24px;
+    font-weight: bold;
+}
