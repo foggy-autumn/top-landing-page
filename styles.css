@@ -77,10 +77,15 @@ button {
     max-width: 1000px;
     align-items: center;
     justify-content: center;
+    margin: 0 40px;
 }
 
 .section-one {
     background-color: #1F2937;
+    background-image: url("./images/hero-head.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #E5E7EB;
     gap: 40px;
 }
@@ -89,6 +94,7 @@ button {
     max-width: 450px;
     margin-right: 40px;
     flex: 1 1 auto;
+    text-shadow: 0 0 5px #1F2937;
 }
 
 .section-one h1 {
@@ -98,6 +104,7 @@ button {
 }
 
 .section-one .image {
+    opacity: 0%;
     max-width: 550px;
     height: 250px;
     flex: 1 1 auto;
@@ -105,6 +112,7 @@ button {
     align-items: center;
     justify-content: center;
     background-color: #666666;
+    
 }
 
 .section-two .content {
@@ -133,11 +141,23 @@ button {
 }
 
 .illustration {
-    border: 4px solid #3882F6;
-    border-radius: 10px;
+    /*border: 4px solid #3882F6;
+    border-radius: 10px;*/
     height: 175px;
     width: inherit;
-    margin: 10px 0;
+    margin: 20px 0;
+}
+
+.thumb {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.thumb.fourth {
+    object-position: bottom center;
 }
 
 .section-three {
