@@ -42,16 +42,16 @@ button {
     background-color: #1F2937;
     color: white;
     align-items: center;
+    justify-content: center;
 }
 
 .footer {
-    justify-content: center;
     height: 100px;
 }
 
-.header {
-    justify-content: space-around;
+.header .content {
     padding: 16px 0;
+    justify-content: space-between;
 }
 
 .header p {
@@ -68,7 +68,15 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 20px 100px 20px;
+    padding: 50px 0 100px 0;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
 }
 
 .section-one {
@@ -99,7 +107,7 @@ button {
     background-color: #6e6e6e;
 }
 
-.section-two {
+.section-two .content {
     flex-direction: column;
 }
 .section-two h2 {
@@ -139,7 +147,6 @@ button {
 .quote {
     display: flex;
     flex-direction: column;
-    width: 60%;
     max-width: 800px;
     align-items: flex-end;
 }
